@@ -1,0 +1,174 @@
+[
+  {
+    "index": 0,
+    "source_index": 0,
+    "sentence": "nhưng nhân viên đã đối xử với chúng tôi quá tệ .",
+    "tokens": ["nhưng", "nhân", "viên", "đã", "đối", "xử", "với", "chúng", "tôi", "quá", "tệ", "."],
+    "aspects": [
+      {
+        "term": ["nhân", "viên"],
+        "polarity": "negative",
+        "from": 1,
+        "to": 3
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "source_index": 1,
+    "sentence": "công bằng mà nói , điểm đáng khen duy nhất là đồ ăn , món này trên mức trung bình , nhưng vẫn không thể bù đắp cho tất cả thiếu sót khác của teodora .",
+    "tokens": ["công", "bằng", "mà", "nói", ",", "điểm", "đáng", "khen", "duy", "nhất", "là", "đồ", "ăn", ",", "món", "này", "trên", "mức", "trung", "bình", ",", "nhưng", "vẫn", "không", "thể", "bù", "đắp", "cho", "tất", "cả", "thiếu", "sót", "khác", "của", "teodora", "."],
+    "aspects": [
+      {
+        "term": ["đồ", "ăn"],
+        "polarity": "positive",
+        "from": 11,
+        "to": 13
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "source_index": 2,
+    "sentence": "đồ ăn luôn đặc biệt ngon , với một nhà bếp rất chuyên nghiệp có thể chuẩn bị bất cứ món gì bạn muốn ăn , dù món đó có trong thực đơn hay không .",
+    "tokens": ["đồ", "ăn", "luôn", "đặc", "biệt", "ngon", ",", "với", "một", "nhà", "bếp", "rất", "chuyên", "nghiệp", "có", "thể", "chuẩn", "bị", "bất", "cứ", "món", "gì", "bạn", "muốn", "ăn", ",", "dù", "món", "đó", "có", "trong", "thực", "đơn", "hay", "không", "."],
+    "aspects": [
+      {
+        "term": ["đồ", "ăn"],
+        "polarity": "positive",
+        "from": 0,
+        "to": 2
+      },
+      {
+        "term": ["nhà", "bếp"],
+        "polarity": "positive",
+        "from": 9,
+        "to": 11
+      },
+      {
+        "term": ["thực", "đơn"],
+        "polarity": "neutral",
+        "from": 31,
+        "to": 33
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "source_index": 3,
+    "sentence": "không chỉ đồ ăn xuất sắc mà những món tặng kèm nhỏ cũng rất tuyệt .",
+    "tokens": ["không", "chỉ", "đồ", "ăn", "xuất", "sắc", "mà", "những", "món", "tặng", "kèm", "nhỏ", "cũng", "rất", "tuyệt", "."],
+    "aspects": [
+      {
+        "term": ["đồ", "ăn"],
+        "polarity": "positive",
+        "from": 2,
+        "to": 4
+      },
+      {
+        "term": ["món", "tặng", "kèm"],
+        "polarity": "positive",
+        "from": 8,
+        "to": 11
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "source_index": 5,
+    "sentence": "những chiếc bánh mì vòng có hương vị nổi bật và kết cấu tuyệt vời , vừa dai nhưng không hề dính .",
+    "tokens": ["những", "chiếc", "bánh", "mì", "vòng", "có", "hương", "vị", "nổi", "bật", "và", "kết", "cấu", "tuyệt", "vời", ",", "vừa", "dai", "nhưng", "không", "hề", "dính", "."],
+    "aspects": [
+      {
+        "term": ["bánh", "mì", "vòng"],
+        "polarity": "positive",
+        "from": 2,
+        "to": 5
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "source_index": 6,
+    "sentence": "tuy vậy bản thân đồ ăn khá ngon .",
+    "tokens": ["tuy", "vậy", "bản", "thân", "đồ", "ăn", "khá", "ngon", "."],
+    "aspects": [
+      {
+        "term": ["đồ", "ăn"],
+        "polarity": "positive",
+        "from": 4,
+        "to": 6
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "source_index": 8,
+    "sentence": "họ không có sốt mayonnaise , quên bánh mì nướng của chúng tôi , bỏ sót nguyên liệu như phô mai trong món trứng tráng , món ăn không đủ nóng và thịt xông khói bị nấu quá kỹ đến mức vỡ vụn trên đĩa khi chạm vào .",
+    "tokens": ["họ", "không", "có", "sốt", "mayonnaise", ",", "quên", "bánh", "mì", "nướng", "của", "chúng", "tôi", ",", "bỏ", "sót", "nguyên", "liệu", "như", "phô", "mai", "trong", "món", "trứng", "tráng", ",", "món", "ăn", "không", "đủ", "nóng", "và", "thịt", "xông", "khói", "bị", "nấu", "quá", "kỹ", "đến", "mức", "vỡ", "vụn", "trên", "đĩa", "khi", "chạm", "vào", "."],
+    "aspects": [
+      {
+        "term": ["sốt", "mayonnaise"],
+        "polarity": "negative",
+        "from": 3,
+        "to": 5
+      },
+      {
+        "term": ["bánh", "mì", "nướng"],
+        "polarity": "negative",
+        "from": 7,
+        "to": 10
+      },
+      {
+        "term": ["nguyên", "liệu"],
+        "polarity": "negative",
+        "from": 16,
+        "to": 18
+      },
+      {
+        "term": ["phô", "mai"],
+        "polarity": "neutral",
+        "from": 19,
+        "to": 21
+      },
+      {
+        "term": ["món", "trứng", "tráng"],
+        "polarity": "neutral",
+        "from": 22,
+        "to": 25
+      },
+      {
+        "term": ["thịt", "xông", "khói"],
+        "polarity": "negative",
+        "from": 32,
+        "to": 35
+      },
+      {
+        "term": ["đĩa"],
+        "polarity": "neutral",
+        "from": 44,
+        "to": 45
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "source_index": 9,
+    "sentence": "chúng tôi phải chờ nửa tiếng mới nhận được hóa đơn , điều đó lại khá phù hợp vì chúng tôi có thể ngồi uống nước và trò chuyện .",
+    "tokens": ["chúng", "tôi", "phải", "chờ", "nửa", "tiếng", "mới", "nhận", "được", "hóa", "đơn", ",", "điều", "đó", "lại", "khá", "phù", "hợp", "vì", "chúng", "tôi", "có", "thể", "ngồi", "uống", "nước", "và", "trò", "chuyện", "."],
+    "aspects": [
+      {
+        "term": ["hóa", "đơn"],
+        "polarity": "neutral",
+        "from": 9,
+        "to": 11
+      },
+      {
+        "term": ["nước"],
+        "polarity": "neutral",
+        "from": 25,
+        "to": 26
+      }
+    ]
+  }
+]

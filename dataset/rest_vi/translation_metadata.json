@@ -1,0 +1,24 @@
+{
+  "translation": "Google Translate mobile endpoint",
+  "source_language": "en",
+  "target_language": "vi",
+  "syntactic_fields_removed": [
+    "heads",
+    "deprels",
+    "tags"
+  ],
+  "train_sentences": 1980,
+  "train_aspect_samples": 3608,
+  "train_labels": {
+    "negative": 807,
+    "positive": 2164,
+    "neutral": 637
+  },
+  "test_sentences": 600,
+  "test_aspect_samples": 1120,
+  "test_labels": {
+    "positive": 728,
+    "neutral": 196,
+    "negative": 196
+  }
+}
